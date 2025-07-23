@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #F5F8FF;
+}
+
+/* shared style */
+.display{
+    display: flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text-secondary{
+    color:rgba(0, 0, 0, 0.50) ;
+    font-size: 1.375rem;
+}
+.orange-span{
+color: #E95A08;
+}
+
+/* navigation style */
+ul li {
+    list-style-type: none;
+    margin-left: 48px;
+}
+ul li a{
+text-decoration: none;
+color: #8987A1;
+}
+span{
+    color:#252432 ;
+    font-weight: bold;
+}
+.nav-bar{
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+/* banner style */
+.banner{
+    justify-content: space-between;
+}
+.banner img{
+   margin-top: 106px;
+   width: 100%;
+}
+
+.banner-items{
+    margin-top: 165px;
+    max-width: 570px;
+}
+.banner-title{
+    font-size: 4.0625rem;
+}
+
+/* our plant style */
+
+
+
+
+/* responsive style */
+
+@media screen and (max-width:576px) {
+    /* navigation */
+    .nav-item-hideen{
+        display: none;
+    }
+    .nav-bar{
+        margin-left: 16px;
+        margin-right: 16px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner img{
+        margin-bottom: 28px;
+        margin-top: 0px;
+    }
+    .banner-items{
+        margin-top: 0px;
+        margin-bottom: 65px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .banner-title{
+        font-size: 1.5rem;
+    }
+    .banner-description{
+        font-size: .875rem;
+    }
+}
