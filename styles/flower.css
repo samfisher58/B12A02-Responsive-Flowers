@@ -50,7 +50,7 @@ img{
 color: #E95A08;
 }
 
-.btn-priamary{
+.btn-primary{
     background-color: #E95A08;
     color: white;
     font-size: 1.1875rem;
@@ -360,7 +360,7 @@ padding-bottom: 5px;
 font-size: 1rem;
 }
 
-.btn-priamary{
+.btn-primary{
     background-color: #E95A08;
     color: white;
     font-size: 1rem;
@@ -446,13 +446,11 @@ font-size: 1rem;
 .colorful-brunch input[type="email"] {
   padding: 15.5px 14px 15.5px 20px; 
   font-size: 1rem;
-  max
-  
 }
 .join{
-    font-size: 1rem;
-    color: white;
-    font-weight: 700;
+    font-size:1rem;
+    color:white;
+    font-weight:700;
 }
 .colorful-brunch >button {
     background-color: #E95A08;
